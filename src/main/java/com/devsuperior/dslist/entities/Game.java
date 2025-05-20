@@ -36,10 +36,9 @@ public class Game {
 
 	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String longDescription) {
-		super();
+		
 		this.id = id;
 		this.title = title;
-		
 		this.year = year;
 		this.genre = genre;
 		this.platforms = platforms;
